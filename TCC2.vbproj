@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59C29F92-E32B-4B68-80CC-6690E83ADD97}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>TCC2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TCC2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TCC2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="arvores.Designer.vb">
+      <DependentUpon>arvores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="arvores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historia.Designer.vb">
+      <DependentUpon>historia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="historia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plantacao.Designer.vb">
+      <DependentUpon>plantacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="plantacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cabana.Designer.vb">
+      <DependentUpon>cabana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cabana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="galinheiro.Designer.vb">
+      <DependentUpon>galinheiro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="galinheiro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="riacho.Designer.vb">
+      <DependentUpon>riacho.vb</DependentUpon>
+    </Compile>
+    <Compile Include="riacho.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pomar.Designer.vb">
+      <DependentUpon>pomar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pomar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tinicial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tinicial.Designer.vb">
+      <DependentUpon>tinicial.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fases.Designer.vb">
+      <DependentUpon>fases.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fases.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="arvores.resx">
+      <DependentUpon>arvores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="historia.resx">
+      <DependentUpon>historia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plantacao.resx">
+      <DependentUpon>plantacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cabana.resx">
+      <DependentUpon>cabana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="galinheiro.resx">
+      <DependentUpon>galinheiro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="riacho.resx">
+      <DependentUpon>riacho.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pomar.resx">
+      <DependentUpon>pomar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tinicial.resx">
+      <DependentUpon>tinicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fases.resx">
+      <DependentUpon>fases.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fazenda-modelo-b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundopomar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgminh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fish3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fish2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fish4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fish1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floresta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\owl1_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valley.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\owl6_azulescuro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\owl4_laranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\owl5_lilas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\owl3_oliva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valley-312709_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lettuceearth1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lettuceearth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fazenda-modelo-b22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lettuce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lettuce-768237__180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valley_shed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valley_shed1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hedg-clippers-24249_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gloves-33621_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spade-24248_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shovel-30627_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watering-can-146445_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watering-can-146445_960_7201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watering-can-146445_960_7202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valleygalinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valleygalinheiro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinhaovos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinhaovos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valley_shed11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aaasdd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aaasdd1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aaasdd1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aaasdd11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arvores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrot-161346_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farm2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrot-161346_960_7201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrot-161346_960_7202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageteste.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageteste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valley1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valley11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valley12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floresta_quadrado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floresta_quadrado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floresta_quadrado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floresta_quadrado4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floresta_quadrado5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinheiro_quadrado0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadrado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-1356477_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46300-O4YH8F1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagens.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagens1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46300-O4YH8F.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana_quadrado31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana_quadrado0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana_quadrado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana_quadrado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana_quadrado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana_quadrado4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana_quadrado5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabana_quadrado6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_cabana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_floresta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_galinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_plantacao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_pomar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_floresta .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pomar_quadrado011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado711.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado811.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacao_quadrado9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ajuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao_fechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao_encerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avancar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao_salvar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao_apagar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao_media.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinheiro_quadrado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinheiro_quadrado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinheiro_quadrado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinheiro_quadrado4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinheiro_quadrado5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinheiro_quadrado6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galinheiro_quadrado01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fases_riacho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fases_pomar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fases_floresta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fases_cabana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fases_galinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fases_plantacao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_pomar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_pomar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_pomar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_pomar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_pomar4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_riacho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_riacho1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_riacho2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_pomar5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_pomar6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_cabana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_floresta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_galinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_plantacao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_ajuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_tela_inicial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_tela_inicial1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao_iniciar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao_iniciar1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_tela_inicial2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem_insira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmer_resposta.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

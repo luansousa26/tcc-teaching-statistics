@@ -1,0 +1,200 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TCC2
+</name>
+</assembly>
+<members>
+<member name="P:WindowsApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.aaasdd1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.apple223">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.arvores">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.cabana">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.cabana1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.cabana2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.fazenda_modelo_b">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.fazenda_modelo_b22">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.fish1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.fish2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.fish3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.fish4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.floresta">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.fundo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.fundopomar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.galinha">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.galinhaovos">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.galinhaovos1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.gloves_33621_960_720">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.hedg_clippers_24249_960_720">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.imgminh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.lettuce">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.lettuce_768237__180">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.lettuceearth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.lettuceearth1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.mouse">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.owl1_verde">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.owl3_oliva">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.owl4_laranja">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.owl5_lilas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.owl6_azulescuro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.plantacao">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.shovel_30627_960_720">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.spade_24248_960_720">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.valley">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.valley_312709_960_720">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.valley_shed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.valley_shed1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.valley_shed11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.valleygalinheiro">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.valleygalinheiro1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.watering_can_146445_960_720">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.watering_can_146445_960_7201">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.watering_can_146445_960_7202">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:WindowsApplication1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

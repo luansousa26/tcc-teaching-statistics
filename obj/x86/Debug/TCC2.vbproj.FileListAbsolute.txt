@@ -1,0 +1,17 @@
+C:\Users\43719121844\Desktop\TCC atualizado\bin\Debug\TCC2.exe
+C:\Users\43719121844\Desktop\TCC atualizado\bin\Debug\TCC2.pdb
+C:\Users\43719121844\Desktop\TCC atualizado\bin\Debug\TCC2.xml
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.arvores.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.historia.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.plantacao.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.cabana.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.galinheiro.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.riacho.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.pomar.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.tinicial.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.fases.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\TCC2.vbproj.GenerateResource.Cache
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\TCC2.exe
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\TCC2.xml
+C:\Users\43719121844\Desktop\TCC atualizado\obj\x86\Debug\TCC2.pdb
