@@ -1,10 +1,11 @@
-# tcc-teaching-statistics
-Graduation completion project for Uninove University, to teaching basic statistic concept.
+# tcc-teaching-statistics :cat:
+Graduation completion project in VB.NET for Uninove University, to teaching basic statistic concept.
 
 For run acess the path: bin/Debug/ and run TCC2.EXE or open with Visual Studio.
 
 FERRAMENTAS TECNOLÓGICAS APLICADAS AO ENSINO DE ESTATÍSTICA
 https://www.escavador.com/sobre/219865406/bruna-yumi-yamanaka-henrique-s
+
 
 ![tela inicial](https://user-images.githubusercontent.com/33549496/42141672-e34a11d8-7d80-11e8-9007-84356046ad40.png)
 ![historioa](https://user-images.githubusercontent.com/33549496/42141670-e2d68b28-7d80-11e8-8d02-193acfecabb3.png)
