@@ -3,7 +3,7 @@ Graduation completion project in VB.NET for Uninove University, to teaching basi
 
 For run acess the path: bin/Debug/ and run TCC2.EXE or open with Visual Studio.
 
-FERRAMENTAS TECNOLÓGICAS APLICADAS AO ENSINO DE ESTATÍSTICA
+## FERRAMENTAS TECNOLÓGICAS APLICADAS AO ENSINO DE ESTATÍSTICA
 https://www.escavador.com/sobre/219865406/bruna-yumi-yamanaka-henrique-s
 
 
